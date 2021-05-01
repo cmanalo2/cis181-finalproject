@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+	Carlo Manalo
+	4/17/2021
+	CIS 181 Final Project Update 1
+	Page: Home/Landing
+	-->
+	
+	
+	
+   <!--SEO, GA codes etc-->
+   <meta charset="utf-8" />
+   <title>Home</title>
+   <link href="style.css" rel="stylesheet" />
+   <meta name="description" content="placeholder for now">
+   <meta name="keywords" content="placeholder for now">
+   <meta name="author" content="Carlo Manalo">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
 
+<body>
+    <header>
+      <img src="home-placeholder.jpg" alt="Project Properties Rentals" style="max-width:100%;" />
+      <nav class="horizontal">
+         <ul>
+            <li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Around South Loop</a></li>
+			<li><a href="#">Apply</a></li>
+			<li><a href="#">Payments</a></li>
+			<li><a href="#">Rules</a></li>
+			<li><a href="#">Garbage/Recycling</a></li>
+			<li><a href="#">Snow Handling</a></li>
+		 </ul>
+      </nav>
+    </header>
+    <section id="left">
+        <article>
+           <h1>Contact for more info!</h1>
+		   <!--Contact form -->
+           <form id="form" accept-charset="UTF-8" action="contact.php" autocomplete="off" method="GET" target="_blank">
+		   <fieldset>
+		   <label for="name">Name:</label><br /> 
+		   <input name="name" type="text" value="Jane Doe" /> <br />
+		   <label for="phone">Phone number:</label><br /> 
+		   <input name="phone" type="text" value="(123) 456 7890" /> <br />
+		   <label for="email">Email:</label><br /> 
+		   <input name="email" type="text" value="email@example.com" /> <br />
+		   <label for="mustlook">Apartment viewing, or need to move?</label><br />
+		   <span><input checked="checked" name="mustlook" type="radio" value="justlooking" /> Apartment viewing
+		   <input name="mustlook" type="radio" value="mustmove" /> Must Move </span><br /> 
+		   <textarea cols="30" rows="5">Leave your message here.</textarea><br />
+		   <label for="select">Preferred contact method?</label><br />
+		   <select>
+		      <option selected="selected" value="1">Text</option>
+              <option value="2">Email</option>
+			  
+		   </select><br /> 
+		   <label for="unit">Select a unit?</label><br />
+		   <input name="unit" type="checkbox" value="1" /> Test unit 1<br /> 
+		   <input name="unit" type="checkbox" value="2" /> Test unit 2<br />
+		   <input name="unit" type="checkbox" value="3" /> Test unit 3<br />
+		   <input name="unit" type="checkbox" value="4" /> Test unit 4<br />
+		   <span><button type="submit" value="submit">Submit</button>
+		   <button type="cancel" value="cancel">Cancel</button></span>
+		   </fieldset>
+		   </form>
+		   
+	    </article>
+    </section>
+ 
+    <section id="right">
+	<!--Content-->
+		<article>
+			<h1>Test unit 1</h1>
+			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</article>
+		<article>
+			<h1>Test unit 1</h1>
+			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</article>
+		<article>
+			<h1>Test unit 1</h1>
+			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</article>
+		<article>
+			<h1>Test unit 1</h1>
+			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</article>
+    </section>
+
+
+
+   <footer>
+   <!--Footer and Sitemap-->
+     <strong>Parking this week is: </strong><br>
+     <strong>Recycling this week is: </strong><br>
+	 | Made with love by <i>Carlo Manalo</i> | &copy; 2021 2022 | 456 South Loop, Chicago | <span><a href="mailto:contact@testmail.com">Contact | </a>
+	  <a href="#">Sitemap |</a></span>
+   </footer>
+
+</body>
+</html>
