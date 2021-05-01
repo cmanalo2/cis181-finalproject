@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/*
+Carlo Manalo
+4/17/2021
+CIS 181 Final Project Update 1
+Page: CSS Styling
+*/
+/* Carlo Manalo HTML */
+html {
+   background-color: rgb(31, 31, 31);
+}
+
+strong {
+   font-weight: bold;
+}
+
+p a {
+   color: black;
+   text-decoration: underline;
+}
+
+body {
+   background-color: #c0c0c0;
+   float: none;
+   margin: 0px auto;
+   width: 90%;
+   max-width: 1000px;
+   min-width: 800px;
+}
+
+
+/* Carlo Manalo Header */
+
+header {
+   width: 100%;
+}
+
+
+header img {
+   clear: left;
+   display: block;
+   margin: 5px auto;
+}
+
+/* Carlo Manalo Navigation */
+nav {
+	text-decoration: none;
+}
+
+header nav.horizontal {
+   width: 100%;
+}
+
+
+header nav.horizontal li {
+   background-color: rgb(41, 41, 41);
+   display: block;
+   font-family: Arial, Verdana, Helvetica;
+   float: left;
+   width: 25%;
+   padding: auto;
+}
+
+
+header nav.horizontal li a {
+   color: white;
+   display: block;
+   font-size: 0.8em;
+   height: 50px; 
+   letter-spacing: 0.1em;   
+   line-height: 50px; 
+   text-align: center;     
+   width: 100%;
+   padding: auto;
+}
+
+header nav.horizontal li a:visited, header nav.horizontal li a:link {
+	color: white;
+}
+
+
+/* Carlo Manalo Body */
+p {
+	color: white;
+	font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+section {
+	margin-left: 15px;
+	text-wrap: auto;
+}
+table {
+	color: white;
+	margin: auto;
+}
+ul, ol {
+	color: white;
+}
+
+/* Carlo Manalo Sections  */
+/* -->Section Layout-->Home */
+
+section#left {
+   float: left;
+   width: 50%;
+   margin-right: 2%;
+}
+
+section#right {
+   float: left;
+   width: 48%;
+   padding-bottom: 20px;
+}
+
+footer {
+   clear: left;
+}
+
+/* -->Left Section-->Home */
+
+section#left article {
+   width: 95%;
+   margin: 0px auto;
+}
+
+section#left article h1 {
+   color: rgb(31, 31, 31);
+   font-size: 34px;
+   font-family: Arial, Verdana, Helvetica;
+   font-weight: bold;
+   margin: 20px 0px 20px 20px;
+}
+
+
+section#left article p {
+   margin: 0px 0px 20px 20px;
+   color: rgb(31, 31, 31);
+   font-family: Arial, Verdana, Helvetica;
+}
+
+
+/* -->Right Section-->Home */
+
+section#right article {
+   width: 95%;
+   clear: left;
+}
+
+section#right h1 {
+   font-size: 24px;
+   text-align: center;
+   padding: 15px 0px 10px 0px;
+}
+
+section#right img {
+   float: left;
+   width: 30%;
+   margin-right: 5%;
+}
+
+section#right p {
+   float: left;
+   width: 62%;
+   font-size: 20px;
+}
+
+
+/* Footer Styles*/
+
+footer {
+   margin-top: 15px;
+   background-color: rgb(71, 71, 71);
+   color: rgb(231, 231, 231);
+   text-align: center;
+}
+
+footer, footer span  a {
+   font-size: 12px;
+   padding: 10px;
+   color: rgb(231, 231, 231);
+}
+
+footer span a:hover {
+   color: rgb(231, 231, 231);
+   text-decoration: none;
+}
