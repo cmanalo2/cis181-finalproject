@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<!--
 	Carlo Manalo
-	4/17/2021
-	CIS 181 Final Project Update 1
+	5/1/2021
+	CIS 181 Final Project Update 2
 	Page: Home/Landing
 	-->
 	
@@ -14,8 +15,8 @@
    <meta charset="utf-8" />
    <title>Home</title>
    <link href="style.css" rel="stylesheet" />
-   <meta name="description" content="placeholder for now">
-   <meta name="keywords" content="placeholder for now">
+   <meta name="description" content="CM Properties, leading property rental agency around South Loop">
+   <meta name="keywords" content="Exclusive, Property Rental, South Loop">
    <meta name="author" content="Carlo Manalo">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,17 +24,17 @@
 
 <body>
     <header>
-      <img src="home-placeholder.jpg" alt="Project Properties Rentals" style="max-width:100%;" />
+      <img src="hero-image.png" alt="Project Properties Rentals" style="max-width:100%;" />
       <nav class="horizontal">
          <ul>
-            <li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Around South Loop</a></li>
-			<li><a href="#">Apply</a></li>
-			<li><a href="#">Payments</a></li>
-			<li><a href="#">Rules</a></li>
-			<li><a href="#">Garbage/Recycling</a></li>
-			<li><a href="#">Snow Handling</a></li>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="around.html">Around South Loop</a></li>
+			<li><a href="apply.html">Apply</a></li>
+			<li><a href="payments.html">Payments</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="garbage.html">Garbage/Recycling</a></li>
+			<li><a href="snow.html">Snow Handling</a></li>
 		 </ul>
       </nav>
     </header>
@@ -44,14 +45,14 @@
            <form id="form" accept-charset="UTF-8" action="contact.php" autocomplete="off" method="GET" target="_blank">
 		   <fieldset>
 		   <label for="name">Name:</label><br /> 
-		   <input name="name" type="text" value="Jane Doe" /> <br />
+		   <input name="name" type="text" value="John Doe" /> <br />
 		   <label for="phone">Phone number:</label><br /> 
 		   <input name="phone" type="text" value="(123) 456 7890" /> <br />
 		   <label for="email">Email:</label><br /> 
 		   <input name="email" type="text" value="email@example.com" /> <br />
 		   <label for="mustlook">Apartment viewing, or need to move?</label><br />
 		   <span><input checked="checked" name="mustlook" type="radio" value="justlooking" /> Apartment viewing
-		   <input name="mustlook" type="radio" value="mustmove" /> Must Move </span><br /> 
+		   <input name="mustlook" type="radio" value="mustmove" /> Ready to move </span><br /> 
 		   <textarea cols="30" rows="5">Leave your message here.</textarea><br />
 		   <label for="select">Preferred contact method?</label><br />
 		   <select>
@@ -60,10 +61,10 @@
 			  
 		   </select><br /> 
 		   <label for="unit">Select a unit?</label><br />
-		   <input name="unit" type="checkbox" value="1" /> Test unit 1<br /> 
-		   <input name="unit" type="checkbox" value="2" /> Test unit 2<br />
-		   <input name="unit" type="checkbox" value="3" /> Test unit 3<br />
-		   <input name="unit" type="checkbox" value="4" /> Test unit 4<br />
+		   <input name="unit" type="checkbox" value="1" /> 1 Bed<br /> 
+		   <input name="unit" type="checkbox" value="2" /> 2 Bed<br />
+		   <input name="unit" type="checkbox" value="3" /> Duplex<br />
+		   <input name="unit" type="checkbox" value="4" /> Studio<br />
 		   <span><button type="submit" value="submit">Submit</button>
 		   <button type="cancel" value="cancel">Cancel</button></span>
 		   </fieldset>
@@ -75,28 +76,32 @@
     <section id="right">
 	<!--Content-->
 		<article>
-			<h1>Test unit 1</h1>
-			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<h1>1 Bed</h1>
+			<img class="homeimg" src="one-bed.jpg" alt="1 Bed" />
+			<p>Spacious 1 Bedroom. CM Properties is excited to present you with 
+			this one-bedroom apartment in South Loop.<br/>
+			<i>No video available at this time.</i></p>
 		</article>
 		<article>
-			<h1>Test unit 1</h1>
-			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<h1>2 Bed</h1>
+			<img class="homeimg" src="two-bed.jpg" alt="2 Bed" />
+			<p>Newly renovated 2 Bedroom. CM Properties is excited to present you with 
+			this two-bedroom apartment in South Loop.<br/>
+			Click <a href="https://www.youtube.com/watch?v=VSP4yB6UorY">here</a> for video.</p>
 		</article>
 		<article>
-			<h1>Test unit 1</h1>
-			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<h1>Duplex</h1>
+			<img class="homeimg" src="duplex.jpg" alt="Duplex" />
+			<p>Spacious Duplex. CM Properties is excited to present you with 
+			this duplex apartment in South Loop.<br/>
+			Click <a href="https://www.youtube.com/watch?v=VSP4yB6UorY">here</a> for video.</p>
 		</article>
 		<article>
-			<h1>Test unit 1</h1>
-			<img class="homeimg" src="placeholder-1.png" alt="Unit 1" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<h1>Studio</h1>
+			<img class="homeimg" src="studio.jpg" alt="Studio" />
+			<p>Studio with a view. CM Properties is excited to present you with 
+			this studio apartment in South Loop.<br/>
+			Click <a href="https://www.youtube.com/watch?v=VSP4yB6UorY">here</a> for video.</p>
 		</article>
     </section>
 
@@ -104,9 +109,12 @@
 
    <footer>
    <!--Footer and Sitemap-->
-     <strong>Parking this week is: </strong><br>
-     <strong>Recycling this week is: </strong><br>
-	 | Made with love by <i>Carlo Manalo</i> | &copy; 2021 2022 | 456 South Loop, Chicago | <span><a href="mailto:contact@testmail.com">Contact | </a>
+     <strong>Parking this week is: <script SRC="parking.js">
+     </script></strong><br>
+     <strong>Recycling this week is: <script SRC="recycling.js">
+     </script></strong><br>
+	 | Made with <span style="font-size:150%;color:red;">&hearts;</span>
+ by <i>Carlo Manalo</i> | &copy; 2021 2022 | 456 South Loop, Chicago | <span><a href="mailto:contact@testmail.com">Contact | </a>
 	  <a href="#">Sitemap |</a></span>
    </footer>
 
